@@ -38,7 +38,7 @@
             "problemMatcher": [],
         },
         {
-            "label": "eas: build:android (local)",
+            "label": "eas: local build (preview/android)",
             "type": "shell",
             "command": "eas",
             "args": [
@@ -46,7 +46,7 @@
                 "--platform",
                 "android",
                 "--profile",
-                "development",
+                "preview",
                 "--local",
             ],
             "problemMatcher": [],
